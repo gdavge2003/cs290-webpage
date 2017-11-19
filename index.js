@@ -17,8 +17,10 @@ app.get('/',function(req,res){
   res.render('home');
 });
 
-
-
+//about us setup
+app.get('/about-us',function(req,res){
+	res.render('aboutus');
+});
 
 
 app.get('/show-data',function(req,res){

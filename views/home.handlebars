@@ -1,3 +1,46 @@
-<h1>The Home Page!</h1>
-<p>testing stuff here, looking good so far I suppose...</p>
-<img src="/images/logo_lbc.png" alt="LBCSJ Logo" />
+<!-- Home page -->
+<!--Carousel html base-->
+<div id="main_carousel" class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        	<br />
+ 
+        	<div id="carousel_main" class="carousel slide" data-ride="carousel">
+        		<ol class="carousel-indicators">
+        			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        		</ol>
+ 
+        		<div class="carousel-inner" role="listbox">
+					<!--add images to carousel here-->
+        			<span class="carousel-item active">
+        				<img src="/images/carousel_images/retreat_pic.png" alt="First Slide" />
+        			</span>
+        			<span class="carousel-item">
+        				<img src="/images/carousel_images/people_pic.jpg" alt="Second Slide" />
+        			</span>
+        			<span class="carousel-item">
+        				<img src="/images/carousel_images/bible_pic.jpg" alt="Third Slide" />
+        			</span>
+        		</div>
+        	</div>
+        </div>
+      </div>
+    </div>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script>
+	$('.carousel').carousel({
+		interval: 1000
+		wrap: true
+	})
+</script>
+<!--end code for carousel-->
+	<br>
+<!-- rest of content -->
+<div class="body">
+	<h1>Welcome to Lighthouse Bible Church San Jose!</h1>
+	<p>Please check out the other pages for more information!</p>
+	
+</div>
